@@ -42,7 +42,7 @@ function App() {
                 <Route path="/callback" element={<Callback />} />
                 <Route path="/projects" element={<Portals />} />
                 {/* <Route path="/portals/:portalId/projects/:projectId/tasks" element={<ProjectTasks />} /> */}
-                <Route path="/portals/:listID/tasks" element={<ProjectTasks />} />
+                <Route path="/portals/:boardID/tasks" element={<ProjectTasks />} />
                 <Route path=":portalId/projects" element={<Projects />} />
             </Routes>
             <ToastContainer />
